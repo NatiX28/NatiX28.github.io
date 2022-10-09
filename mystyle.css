@@ -1,0 +1,91 @@
+.Titre{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.Multicolor{
+    background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    orange,
+    red
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color:transparent;
+    position:fixed;
+    right: 630px;
+    top: 50px;
+    outline: 6px double #FF9900;
+    outline-offset: 6px;
+    
+   
+       
+}
+
+.texte{
+    position: fixed;
+    top: 120px;
+    left:400px;
+    right: 400px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height:720px;
+    position: fixed;
+    top:0px;
+    left:-10px;
+}
+
+.photo2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height:720px;
+    position: fixed;
+    top:0px;
+    right:0px
+}
+
+.page{
+    background-color: #FFFF00;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ED0000;
+    border-radius: 10px;
+    border: 4px double #000000;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    font-family: Georgia, serif;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: fixed;
+    left:615px;
+    bottom:80px;
+}
+
+.button:hover {
+    background-color: #FF3333;
+}
